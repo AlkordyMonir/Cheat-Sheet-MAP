@@ -1,0 +1,39 @@
+git flow init
+++++++++++++++++++++++
+Which branch should be used for bringing forth production releases?
+   - dev
+   - develop
+   - main
+Branch name for production releases: [main]
+
+Which branch should be used for integration of the "next release"?
+   - dev
+   - develop
+Branch name for "next release" development: [dev] develop
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix? []
++++++++++++++++++++++++++++++++++
+
+ git flow feature start git_flow
+Switched to a new branch 'feature/git_flow'
+
+Summary of actions:
+- A new branch 'feature/git_flow' was created, based on 'develop'
+- You are now on branch 'feature/git_flow'
+
+Now, start committing on your feature. When done, use:
+
+     git flow feature finish git_flow
+
+PS C:\Users\HP\Desktop\map> git branch
+  dev
+  develop
+* feature/git_flow
+  main
+++++++++++++++++++++++++++++++++++++++++++++
